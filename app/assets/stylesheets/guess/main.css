@@ -4,7 +4,7 @@ body {
 }
 
 .text_container {
-	width: 700px;
+	width: 90%;
 	margin: 20px auto 50px;
 	text-align: center;
 	color: #fff8f1;
@@ -21,11 +21,11 @@ body {
 	line-height: 1.4;
 }
 
-#door_container {
+#fight_links {
 	text-align: center;
 }
 
-.door {
+.fight {
 	display: inline-block;
 	margin: 0 30px;
 }
@@ -45,4 +45,16 @@ a:hover {
 }
 a:active {
 	color: #ff6500;
+}
+.first_img{
+  width: 200px;
+  height: 200px;
+}
+.radius_img{
+  border-radius: 50%;
+}
+header {
+ text-align: right;
+ padding-bottom: 5px;
+ border-bottom: 1px solid #ccc;
 }

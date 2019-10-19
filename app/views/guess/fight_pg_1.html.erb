@@ -1,0 +1,24 @@
+<div class="text_container">
+    <div id="title">YOUR NOT DONE YET .... KEEP ER GOIN!</div>
+
+    <div class="fight">
+      <%=image_tag("fight_10.jpg", :class=> "first_img") %>
+    </div>
+    
+    <p id="host">
+      ALRIGHT NEXT STEP... PICK ONE AND THEN U GET THE FIGHT YOU HAVE BEEN WAITING FOR!
+    </p>
+
+      <div id="fight_links">
+        <div class="fight">
+          <%= link_to image_tag("fight_4.jpg", :class=> "first_img radius_img"),"/guess_results2" %>
+          </div>
+        <div class="fight">
+          <%= link_to image_tag("fight_5.jpg", :class=> "first_img radius_img"),"/guess_results3" %>
+        </div>
+        <div class="fight">
+          <%= link_to image_tag("fight_6.png", :class=> "first_img radius_img"),"/guess_results4" %>
+          </div>
+      </div>
+    <%= link_to "You Don't Like It?... ok Give It Another Try","guess" %>
+</div>

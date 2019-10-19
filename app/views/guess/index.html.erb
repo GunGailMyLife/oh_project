@@ -1,13 +1,27 @@
+<header>
+  <nav>
+      <%= link_to "Home","/" %>
+    <a href="mailto:legand.haskins@hgs.hiddengeniusproject.org">Contact Me</a>
+    <a href="https://github.com/jendewalt">GitHub</a>
+  </nav>
+</header>
 <div class="text_container">
-    <div id="title">Wanna Make a Deal?</div>
+    <div id="title">This Is Where You Can Watch All Types of Fights But Only The Good Ones If Your Lucky</div>
     <p id="host">
-      There are three doors. Behind two doors there are BAD THINGS.<br>
-      Behind one door is an AWESOME THING.<br>
-      Choose a door...</p>
+      OK YOU ARE HERE CUS U WANNA SEE A FIGHT.<br>
+      THERE ARE THREE CHOOSINGS ALL ARE FIGHTS ITS JUST A MATTER OF WHT KIND<br>
+      ALL OF THIS COMES DOWN TO LUCK LETS SEE HOW LUCKY YOU ARE...
+      CHOOSE ONE...</p>
   </div>
 
-  <div id="door_container">
-    <div class="door"><a href="make_a_deal_choose_1.html"><img src="images/blue_door.png"></a></div>
-    <div class="door"><a href="make_a_deal_choose_2.html"><img src="images/orange_door.png"></a></div>
-    <div class="door"><a href="make_a_deal_choose_3.html"><img src="images/green_door.png"></a></div>
+  <div id="fight_links">
+    <div class="fight">
+      <%= link_to image_tag("fight_1.jpg", :class=> "first_img"),"/guess_results1" %>
+      </div>
+    <div class="fight">
+      <%= link_to image_tag("fight_10.jpg", :class=> "first_img"),"/guess_fightpg1" %>
+    </div>
+    <div class="fight">
+      <%= link_to image_tag("fight_3.jpg", :class=> "first_img"),"/guess_fightpg2" %>
+      </div>
   </div>
