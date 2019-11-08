@@ -15,3 +15,13 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+// $(document).ready(function () {
+// console.log("blaaa")
+// 	function randomColor() {
+// 		return '#' + Math.random().toString(16).slice(2, 8);
+// 	};
+//
+// 	$("#button").on("click", function () {
+// 		$('body').css('background', randomColor());
+// 	});
+// });

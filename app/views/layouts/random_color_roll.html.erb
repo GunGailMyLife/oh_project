@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OhProject</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'r_c_r', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js' %>
+    <%= javascript_include_tag '/assets/r_c_r' %>
+
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

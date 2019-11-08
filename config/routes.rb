@@ -12,6 +12,11 @@ Rails.application.routes.draw do
   get '/guess_fightpg1', to: 'guess#fight_pg_1'
   get '/guess_fightpg2', to: 'guess#fight_pg_2'
 
+  resources :random_color_roll
+
+
+  resources :its_canvas_time
+
 
 
 
